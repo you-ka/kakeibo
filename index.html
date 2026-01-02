@@ -2,16 +2,19 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>かんたん家計簿</title>  
+  <title>立替メモ</title>  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>かんたん家計簿</h1>
 
-  <input id="memo" placeholder="内容（例：ランチ）">
-  <input id="amount" type="number" placeholder="金額">
-  <button onclick="addItem()">追加</button>
+  <form id="form">
+    <input type="date" name="date" required>
+    <input type="text" name="item" placeholder="内容" required>
+    <input type="number" name="amount" placeholder="金額" required>
+    <button>追加</button>
+  </form>
 
   <ul id="list"></ul>
 
