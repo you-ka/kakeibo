@@ -100,4 +100,38 @@
   #import-file {
     display: none;
   }
+
+  #sync-status {
+    text-align: center;
+    margin: 10px 0;
+    min-height: 24px;
+  }
+
+  .sync-status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .sync-status.synced {
+    background: #d4edda;
+    color: #155724;
+  }
+
+  .sync-status.syncing {
+    background: #fff3cd;
+    color: #856404;
+  }
+
+  .sync-status.error {
+    background: #f8d7da;
+    color: #721c24;
+  }
+
+  .sync-status.local {
+    background: #e2e3e5;
+    color: #383d41;
+  }
   
