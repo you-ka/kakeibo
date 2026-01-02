@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>かんたん家計簿</h1>
+  <h1>立替メモ</h1>
 
   <form id="form">
     <input type="date" name="date" required>
@@ -17,6 +17,12 @@
   </form>
 
   <ul id="list"></ul>
+
+  <div id="sync-buttons">
+    <button id="export-btn">データをエクスポート</button>
+    <button id="import-btn">データをインポート</button>
+    <input type="file" id="import-file" accept=".json">
+  </div>
 
   <script src="script.js"></script>
 </body>
