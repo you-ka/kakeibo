@@ -65,42 +65,6 @@
     font-size: 12px;
   }
 
-  #sync-buttons {
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  #export-btn,
-  #import-btn {
-    margin: 5px;
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-
-  #export-btn {
-    background: #28a745;
-  }
-
-  #export-btn:hover {
-    background: #218838;
-  }
-
-  #import-btn {
-    background: #17a2b8;
-  }
-
-  #import-btn:hover {
-    background: #138496;
-  }
-
-  #import-file {
-    display: none;
-  }
-
   #sync-status {
     text-align: center;
     margin: 10px 0;
